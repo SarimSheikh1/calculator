@@ -4,36 +4,38 @@ import streamlit as st
 def local_css():
     st.markdown("""
         <style>
-        /* Set background color for the entire app */
+        /* Set background color and font color for the entire app */
         .stApp {
-            background-color: #ffebee; /* Light red background */
+            background-color: #1c1c1c; /* Dark background */
+            color: #ffffff; /* White text color */
         }
         /* Style the title */
         .css-1e8m4b7 {
-            color: #b71c1c; /* Dark red */
+            color: #e57373; /* Light red */
             font-size: 36px;
             font-weight: bold;
             margin-bottom: 20px;
             text-align: center;
+            color: #ffffff; /* White text color */
         }
         /* Style the sidebar */
         .css-1kyxreq {
-            background-color: #e53935; /* Red background */
-            color: white;
+            background-color: #424242; /* Dark gray background */
+            color: #ffffff; /* White text color */
             padding: 20px;
             border-radius: 10px;
         }
         /* Style the selectbox in the sidebar */
         .css-2hb0u5 {
-            background-color: #ffffff; /* White background */
-            color: #b71c1c; /* Dark red text */
+            background-color: #616161; /* Medium gray background */
+            color: #ffffff; /* White text color */
             border: 1px solid #e57373; /* Light red border */
             border-radius: 4px;
         }
         /* Style the number inputs */
         .css-1l02f7b {
-            background-color: #ffffff; /* White background */
-            color: #b71c1c; /* Dark red text */
+            background-color: #616161; /* Medium gray background */
+            color: #ffffff; /* White text color */
             border: 1px solid #e57373; /* Light red border */
             border-radius: 4px;
             padding: 10px;
@@ -41,8 +43,8 @@ def local_css():
         }
         /* Style the button */
         .css-1v0mbdj {
-            background-color: #d32f2f; /* Red background */
-            color: white;
+            background-color: #d32f2f; /* Dark red background */
+            color: #ffffff; /* White text color */
             font-size: 18px;
             border-radius: 4px;
             border: none;
@@ -52,15 +54,16 @@ def local_css():
         .css-1f2i6ps {
             font-size: 24px;
             font-weight: bold;
-            color: #c62828; /* Medium red */
+            color: #e57373; /* Light red */
             text-align: center;
             margin-top: 20px;
         }
         /* Add padding to the main content area */
         .css-1y0tads {
             padding: 20px;
-            background-color: #ffebee; /* Light red background */
+            background-color: #1c1c1c; /* Dark background */
             border-radius: 10px;
+            color: #ffffff; /* White text color */
         }
         </style>
     """, unsafe_allow_html=True)
